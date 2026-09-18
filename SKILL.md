@@ -1,11 +1,12 @@
 ---
 name: entity-readiness-baseline-analyst
-description: Analyze the {{COMPANY_NAME}} Entity Readiness Change Report baseline from an exported CSV or a run of its specific n8n workflow. Use when a user asks about the entity_readiness_baseline table, ready-country totals, status changes, baseline coverage, or Entity Readiness execution results without changing n8n data.
+description: >
+  Analyze the Enterprise Platform Entity Readiness Change Report baseline from an exported CSV or a run of its specific n8n workflow. Use when a user asks about the entity_readiness_baseline table, ready-country totals, status changes, baseline coverage, or Entity Readiness execution results without changing n8n data.
 ---
 
 # Entity Readiness Baseline Analyst
 
-Use this skill only for the {{COMPANY_NAME}} Entity Readiness Change Report, read-only. It supports two reliable sources:
+Use this skill only for the Enterprise Platform Entity Readiness Change Report, read-only. It supports two reliable sources:
 
 1. A CSV downloaded from the n8n Data Tables UI.
 2. An execution URL or ID containing the workflow's Data Table and normalization outputs.
